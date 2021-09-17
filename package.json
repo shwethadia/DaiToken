@@ -2,10 +2,26 @@
   "name": "daitoken",
   "version": "1.0.0",
   "description": "Interact With Dai Token",
-  "main": "index.js",
+  "main": "truffle-config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "shwetha",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.4.0",
+    "solc": "^0.5.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shwethadia/DaiToken.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shwethadia/DaiToken/issues"
+  },
+  "homepage": "https://github.com/shwethadia/DaiToken#readme"
 }
